@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>StarGame</title>
+</head>
+<body>
+    <div class="app">
+        <h1>Quiz Game</h1>
+        <div class="quiz">
+            <div class="center">
+                <input type="text" id="name" placeholder="Enter your name">
+                <button id="start-btn">Start Quiz</button>
+            </div>
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <audio id="dramatic-sound" src="dramatic-sound.mp3.mp3" preload="auto"></audio>
+            <audio id ="good-sount" src="good-sound.mp3.mp3" preload="auto"></audio>
+            <button id="next-btn">Next</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
